@@ -52,43 +52,58 @@
 //   console.log(turtles[i]);
 // }
 // Methods, Revisited
-const favMovies = [
-  "Jaws",
-  "The Fellowship of the Ring",
-  "Howl's Moving Castle",
-  "Django Unchained",
-  "Cloud Atlas",
-  "The Usual Suspects",
-  "Toy Story",
-  "Conan the Barbarian",
-  "Titanic",
-  "Harry Potter",
-  "Fried Green Tomatoes",
-  "Volver",
-  "Oculus",
-  "Seven",
-  "Black Panther",
-  "Harry Potter",
-  "Imitation of Life",
-  "Snatch",
-  "Fast and Furious",
+// const favMovies = [
+//   "Jaws",
+//   "The Fellowship of the Ring",
+//   "Howl's Moving Castle",
+//   "Django Unchained",
+//   "Cloud Atlas",
+//   "The Usual Suspects",
+//   "Toy Story",
+//   "Conan the Barbarian",
+//   "Titanic",
+//   "Harry Potter",
+//   "Fried Green Tomatoes",
+//   "Volver",
+//   "Oculus",
+//   "Seven",
+//   "Black Panther",
+//   "Harry Potter",
+//   "Imitation of Life",
+//   "Snatch",
+//   "Fast and Furious",
+// ];
+// console.log(favMovies.indexOf("Titanic"));
+// favMovies.sort();
+
+// favMovies.pop();
+
+// favMovies.push("Guardians of the Galaxy");
+
+// favMovies.reverse();
+
+// favMovies.shift();
+
+// favMovies.unshift();
+
+// let item = favMovies.indexOf("Django Unchained");
+// favMovies.splice(item, 0, "Avatar");
+
+// const finalResalt = favMovies.slice(0, favMovies.length / 2);
+// console.log(finalResalt);
+// Where is Waldo
+// With the following multi-dimensional array
+const whereIsWaldo = [
+  ["Timmy", "Frank"],
+  "Eggbert",
+  ["Lucinda", "Jacc", "Neff", "Snoop"],
+  ["Petunia", ["Baked Goods", "Waldo"]],
 ];
-console.log(favMovies.indexOf("Titanic"));
-favMovies.sort();
+let index = whereIsWaldo.indexOf("Eggbert");
+whereIsWaldo.splice(index, 1);
 
-favMovies.pop();
+console.log(whereIsWaldo);
+whereIsWaldo[2][2] = "No One";
 
-favMovies.push("Guardians of the Galaxy");
-
-favMovies.reverse();
-
-favMovies.shift();
-
-favMovies.unshift();
-
-let item = favMovies.indexOf("Django Unchained");
-favMovies.splice(item, 0, "Avatar");
-
-const finalResalt = favMovies.slice(0, favMovies.length / 2);
-console.log(finalResalt);
-// console.log(favMovies.indexOf("Fast and Furious"));
+console.log(whereIsWaldo);
+console.log(whereIsWaldo[3][1][1]);
