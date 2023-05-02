@@ -201,3 +201,15 @@ console.log(
 console.log(
   `Thom will wear ${thomsCloset[1][1]} with ${thomsCloset[0][1]} and ${thomsCloset[2][0]}`
 );
+////////////////////////////////
+// Dairty Laundry
+// ////////////////////////////
+for (let i = 0; i < kristynsCloset.length; i++) {
+  console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+////////////////////////////////
+// Inventory
+// ////////////////////////////
+console.log(`Shirts : ${thomsCloset[0]}`);
+console.log(`Pants : ${thomsCloset[1]}`);
+console.log(`Accessories : ${thomsCloset[2]}`);
