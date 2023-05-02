@@ -93,17 +93,34 @@
 // console.log(finalResalt);
 // Where is Waldo
 // With the following multi-dimensional array
-const whereIsWaldo = [
-  ["Timmy", "Frank"],
-  "Eggbert",
-  ["Lucinda", "Jacc", "Neff", "Snoop"],
-  ["Petunia", ["Baked Goods", "Waldo"]],
+// const whereIsWaldo = [
+//   ["Timmy", "Frank"],
+//   "Eggbert",
+//   ["Lucinda", "Jacc", "Neff", "Snoop"],
+//   ["Petunia", ["Baked Goods", "Waldo"]],
+// ];
+// let index = whereIsWaldo.indexOf("Eggbert");
+// whereIsWaldo.splice(index, 1);
+
+// console.log(whereIsWaldo);
+// whereIsWaldo[2][2] = "No One";
+
+// console.log(whereIsWaldo);
+// console.log(whereIsWaldo[3][1][1]);
+//  for (let i=0;i<20;i++){
+//    console.log("Love me, pet me! HSSSSSS!");
+//  }
+const kittyTalk = [
+  "...human...why you taking pictures of me?...",
+  "...the catnip made me do it...",
+  "...why does the red dot always get away...",
 ];
-let index = whereIsWaldo.indexOf("Eggbert");
-whereIsWaldo.splice(index, 1);
-
-console.log(whereIsWaldo);
-whereIsWaldo[2][2] = "No One";
-
-console.log(whereIsWaldo);
-console.log(whereIsWaldo[3][1][1]);
+for (let i = 0; i < 20; i++) {
+  if (i % 2 === 0) {
+    let meow = Math.random() * 2;
+    console.log(meow);
+    let newMeow = Math.round(meow);
+    console.log(newMeow);
+    console.log(kittyTalk[newMeow]);
+  }
+}
