@@ -28,20 +28,26 @@
 // --------------------------------------------------
 // Wild Wild Life
 // Use the following arrays to answer the questions below (name,species ,age, hometown): You should be modifying the elements by accessing them. It is up to you which methods to use.
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
-const sharky = ["Sharky", "shark", 20, "Left Coast"];
-const plantee = ["Plantee", "plant", 5000, "Mordor"];
-const porgee = ["Porgee", "Porg", 186, "Ahch-To"];
-const dart = ["D'Art", "Demogorgan Dog", 2, "Upside Down"];
-// Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
+// const sharky = ["Sharky", "shark", 20, "Left Coast"];
+// const plantee = ["Plantee", "plant", 5000, "Mordor"];
+// const porgee = ["Porgee", "Porg", 186, "Ahch-To"];
+// const dart = ["D'Art", "Demogorgan Dog", 2, "Upside Down"];
+// // Plantee just had her birthday; change Plantee's array to reflect her being a year older.
 
-// Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
-wolfy[3] = "Gotham City";
-console.log(wolfy);
-// Give D'Art a second hometown by adding "Hawkins"
-dart.splice(1, 0, "Hawkins");
-console.log(dart);
-// Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
-wolfy.shift();
-wolfy.unshift("Gameboy");
-console.log(wolfy);
+// // Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+// wolfy[3] = "Gotham City";
+// console.log(wolfy);
+// // Give D'Art a second hometown by adding "Hawkins"
+// dart.splice(1, 0, "Hawkins");
+// console.log(dart);
+// // Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
+// wolfy.shift();
+// wolfy.unshift("Gameboy");
+// console.log(wolfy);
+// ---------------------------------------------
+const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (let i = 0; i < turtles.length; i++) {
+  turtles[i] = turtles[i].toUpperCase();
+  console.log(turtles[i]);
+}
